@@ -4,9 +4,10 @@
              x:Class="AppCEP.Menu">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="busca cep" Clicked="Button_Clicked" />
+            <Button Text="busca cidades" Clicked="Button_Clicked" />
+            <Button Text="busca ruas de bairro" Clicked="Button_Clicked" />
+            <Button Text="busca cep" Clicked="Button_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
