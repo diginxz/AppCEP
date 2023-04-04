@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Beige"
              x:Class="AppCEP.View.BuscaCepPorLogradouro">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout Orientation="Horizontal">
                 <SearchBar x:Name="txt_logradouro"
-                       Placeholder="Qual é sua rua?"/>
-                <Button Text="Buscar" Clicked="Button_Clicked"/>
+                       Placeholder="Qual é sua rua?" HorizontalTextAlignment="0"/>
+                <Button Text="Buscar" Clicked="Button_Clicked" BackgroundColor="Beige" BorderWidth="2"/>
             </StackLayout>
 
             <ActivityIndicator x:Name="carregando" IsRunning="False"/>
